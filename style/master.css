@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+    .row {
+        @apply flex flex-wrap
+    }
+
+    .fc {
+        @apply flex justify-center items-center
+    }
+}
+
+@layer components {
+    .bgGradient {
+        @apply text- text-gray-400 bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 rounded-2xl p-1 px-3 shadow-2xs shadow-amber-700 cursor-pointer
+    }
+
+}
+
+@layer utilities {
+    .bt {
+        @apply border border-blue-700
+    }
+
+    .borderIcon {
+        @apply border border-gray-700
+    }
+}

@@ -1,0 +1,12 @@
+@keyframes anime {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animateText {
+  animation: anime 18s linear infinite;
+}
