@@ -173,3 +173,26 @@
         }
     }
 }
+
+
+.info{
+    width: 100%;
+    height: 5vh;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+@media screen and (min-width:460px) {
+    .info{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:730px) {
+    .info{
+        font-size: 22px;
+    }
+}
