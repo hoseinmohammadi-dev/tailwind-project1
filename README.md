@@ -1,5 +1,4 @@
 # responsive-tailwind
-
 This is my first project using the popular utility-first framework, Tailwind CSS, to build a fully responsive and modern user interface.
 
 ![Image](https://github.com/user-attachments/assets/46f9bf2e-328c-4738-80c2-ee9d30124ad0)
